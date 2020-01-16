@@ -10,8 +10,8 @@ const Header = ({ siteTitle }) => (
       </h1>
     </div>
     <nav>
-      <Link to="/blog">Blog</Link>
-      <Link to="/projects">Projects</Link>
+      <Link to="/blog">Aiqrations</Link>
+      {/* <Link to="/projects">Projects</Link> */}
     </nav>
   </header>
 );
