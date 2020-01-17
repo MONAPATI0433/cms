@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: aslamsk/newTestBlog
-media_folder: src/images
+media_folder: static/assets
 public_folder: assets
 collections:
   - name: blog
