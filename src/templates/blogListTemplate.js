@@ -56,7 +56,7 @@ const BlogPage = ({ data, pageContext }) => {
       <div className="page-navigation">
         {!isFirst && (
           <Link to={prevPage} rel="prev">
-            ← Previous Page
+            ← Prev
           </Link>
         )}
 
@@ -71,7 +71,7 @@ const BlogPage = ({ data, pageContext }) => {
 
         {!isLast && (
           <Link to={nextPage} rel="next">
-            Next Page →
+            Next →
           </Link>
         )}
       </div>
