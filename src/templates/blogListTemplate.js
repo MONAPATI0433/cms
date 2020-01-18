@@ -19,9 +19,9 @@ const BlogPage = ({ data, pageContext }) => {
   return (
     <Layout>
       <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-      <div className="post-list">
+      <div className="post-list container d-flex">
         {posts.map(post => (
-          <div key={post.node.id} className="post-list__item">
+          <div key={post.node.id} className="post-list__item col-6 blog-border">
             <div className="post-list__thumbnail">
               <Link to={post.node.fields.slug}>
                 <Img
@@ -31,7 +31,7 @@ const BlogPage = ({ data, pageContext }) => {
             </div>
             <div className="post-list__content">
               <h2>{post.node.frontmatter.title}</h2>
-              {post.node.frontmatter.tags ? (
+              {/* {post.node.frontmatter.tags ? (
                 <div className="tags-container">
                   <ul className="taglist">
                     {post.node.frontmatter.tags.map(tag => (
@@ -41,7 +41,7 @@ const BlogPage = ({ data, pageContext }) => {
                     ))}
                   </ul>
                 </div>
-              ) : null}
+              ) : null} */}
               <p>{post.node.frontmatter.date}</p>
               <div className="post-list__excerpt">
                 <p>{post.node.excerpt}</p>

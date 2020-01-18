@@ -1,5 +1,6 @@
 .post-list__item {
-  display: flex;
+  // display: flex;
+  display: block;
   flex-direction: row;
   @media (max-width: 500px) {
     flex-direction: column;

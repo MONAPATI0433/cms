@@ -1,0 +1,12 @@
+
+@media  screen and (max-width: 460px)  {
+    .block{
+        display: block !important;
+    }
+    .matter{
+        margin-left:0px !important; 
+    }
+    .center {
+        text-align: center !important;
+    }
+}

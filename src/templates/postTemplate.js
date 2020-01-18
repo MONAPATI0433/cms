@@ -13,7 +13,7 @@ const PostTemplate = ({ data }) => {
         title="Home"
         keywords={[`gatsby`, `application`, `react`, ...frontmatter.tags]}
       />
-      <section>
+      <section className="container">
         <div>
           <h1>{frontmatter.title}</h1>
           <span>{frontmatter.date}</span>

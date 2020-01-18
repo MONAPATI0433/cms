@@ -8,12 +8,17 @@
   text-transform: uppercase;
   transition: all 0.4s ease;
   &:hover {
-    background-color: rgba(rebeccapurple, 0.9);
+    background-color: rgb(224, 164, 88);
+    color: white !important;
+    text-decoration: none;
   }
   &--small {
     padding: 0.5rem;
     text-transform: none;
     font-weight: 500;
-    background-color: rgba(rebeccapurple, 0.6);
+    // color: white !important;
+    // background-color: rgb(224, 164, 88);
+    background-color: unset;
+    border-bottom: 2px solid rgb(224, 164, 88);
   }
 }
